@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
 
-* { margin: 0px; padding: 0px; font-family: 'Noto Sans KR', sans-serif; }
-
 nav { position: fixed; width: 200px; height: 100%; top: 0; left: 0; background-color: #111; }
 
 nav ul li { list-style: none; text-align: center; }
@@ -11,9 +9,12 @@ nav ul li a.active { color: white; }
 
 #container { padding-left: 200px; }
 
-#container #about { height: 100vh; }
-#container #portfolio { height: 200vh; }
-#container #blog { height: 100vh; }
-#container #contact { height: 100vh; }
+#container #about { min-height: 100vh; padding: 5rem 3rem; background-color: #ecf0f1; }
+#container #portfolio { min-height: 200vh; background-color: #e74c3c; }
+#container #blog { min-height: 100vh; background-color: #e67e22; }
+#container #contact { min-height: 100vh; background-color: #f1c40f; }
 
-#container footer { padding: 30px 0; background-color: gainsboro; text-align: center; }
+#container footer { padding: 30px 0; text-align: center; background-color: white; color: #cccccc; }
+
+h1 { text-transform: uppercase; font-size: 5rem; font-weight: bolder; }
+.highlightColor { color: #273c75; }

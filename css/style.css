@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-nav{
+nav {
     width: 160px;
     height: 100%;
     position: fixed;
@@ -18,7 +18,7 @@ nav{
     padding-top: 16px;
 }
 
-nav > a{
+nav > a {
     padding: 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -27,16 +27,21 @@ nav > a{
     text-align: center;
 }
 
-nav > a:hover{
+nav a:hover {
     color: #f1f1f1;
 }
 
-.container{
+.container {
     margin-left: 160px;
 }
 
-section{
+section {
     height: 100vh;
+}
+
+#portfolio {
+    height: 200vh;
+    background-color: aquamarine;
 }
 
 /* 작아지면 요소 바꿈

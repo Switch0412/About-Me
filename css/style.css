@@ -1,51 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
+* { margin: 0px; padding: 0px; font-family: 'Noto Sans KR', sans-serif; }
 
-nav {
-    width: 160px;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 16px;
-}
+nav { position: fixed; width: 200px; height: 100%; top: 0; left: 0; background-color: #111; }
 
-nav > a {
-    padding: 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    text-align: center;
-}
+nav ul li { list-style: none; text-align: center; }
+nav ul li a { display: block; padding: 1rem; text-decoration: none; color: #818181; font-size: 25px; text-transform: uppercase; }
+nav ul li a:hover { background-color: rgb(32, 32, 32); color: rgba(255, 255, 255, 0.637); cursor: pointer; }
+nav ul li a.active { color: white; }
 
-nav a:hover {
-    color: #f1f1f1;
-}
+#container { padding-left: 200px; }
 
-.container {
-    margin-left: 160px;
-}
+#container #about { height: 100vh; }
+#container #portfolio { height: 200vh; }
+#container #blog { height: 100vh; }
+#container #contact { height: 100vh; }
 
-section {
-    height: 100vh;
-}
-
-#portfolio {
-    height: 200vh;
-    background-color: aquamarine;
-}
-
-/* 작아지면 요소 바꿈
-@media screen and (max-height: 450px){
-    nav {padding-top: 15px;}
-    nav a {font-size: 18px;}
-}*/
+#container footer { padding: 30px 0; background-color: gainsboro; text-align: center; }

@@ -7,40 +7,32 @@
 </head>
 <body>
     <nav>
-        <a id="1" onclick="scrollByTag(this)">About</a>
-        <a id="2" onclick="scrollByTag(this)">Portfolio</a>
-        <a id="3" onclick="scrollByTag(this)">Blog</a>
-        <a id="4" onclick="scrollByTag(this)">Contact</a>
-        <a id="5" onclick="scrollByTag(this)">tset</a>
-        <a id="6" onclick="scrollByTag(this)">asdf</a>
+        <ul>
+            <li><a data-index="0" class="active">About</a></li>
+            <li><a data-index="1">Portfolio</a></li>
+            <li><a data-index="2">Blog</a></li>
+            <li><a data-index="3">Contact</a></li>
+        </ul>
     </nav>
 
-    <div class="container">
-        <section id="about">
+    <div id="container">
+        <section data-index="0" id="about">
             test1
         </section>
-        <section id="portfolio">
+        <section data-index="1" id="portfolio">
             TTTest2
         </section>
-        <section id="blog">
+        <section data-index="2" id="blog">
             test3
         </section>
-        <section id="contact">
+        <section data-index="3" id="contact">
             test4
         </section>
-        <section id="test">
-            ttetjlsaj
-        </section>
-        <section id="asdf">
-            sadjhgeb
-        </section>
         <footer>
-            <span>여기는 발임 ㄹㅇㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
-            <span>여기는 발임 ㄹㅇㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
-            <span>여기는 발임 ㄹㅇㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+            <span>Copyright ⓒ 2020. Switch All Rights Reserved.</span>
         </footer>
     </div>
 
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

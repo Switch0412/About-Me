@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+* { font-family: 'Black Han Sans', sans-serif; }
+
+nav { position: fixed; width: 240px; height: 100%; top: 0; left: 0; padding-top: 30px; background-color: #111; }
+
+nav ul li { list-style: none; text-align: center; }
+nav ul li a { display: block; padding: 1rem; text-decoration: none; color: #818181; font-size: 25px; text-transform: uppercase; }
+nav ul li a:hover { background-color: rgb(32, 32, 32); color: rgba(255, 255, 255, 0.637); cursor: pointer; }
+nav ul li a.active { color: white; }
+
+#container { padding-left: 240px; }
+
+section { box-sizing: border-box; display: flex; align-items: center; }
+#about { min-height: 100vh; padding: 5rem 3rem; background-color: #fff; }
+#portfolio { min-height: 200vh; background-color: #fff; }
+#blog { min-height: 100vh; background-color: #e67e22; }
+#contact { min-height: 100vh; background-color: #f1c40f; }
+
+#container footer { padding: 30px 0; text-align: center; background-color: white; color: #cccccc; }
+
+hr { border: 0; border-top: 1px solid rgb(0, 0, 0, 0.1); }
+
+.social-icons .social-icon { display: inline-flex; align-items: center; justify-content: center; height: 3.5rem; width: 3.5rem; background-color: #495057; color: #fff; border-radius: 100%; font-size: 1.5rem; margin-right: 1.5rem; }
+.social-icon:hover { background-color: black; }
+
+.mb-0 { font-size: 6rem; font-weight: initial; text-transform: uppercase; }
+.mb-1 { font-size: 1.7rem; margin-bottom: 48px; }
+.mb-2 { font-size: 1.15rem; margin-bottom: 48px; color: rgb(46, 46, 46); }
+.mb-3 {}
+.mb-4 {}
+
+.link { text-decoration: none; cursor: pointer; }
+
+.highlightColor { color: #273c75; }
